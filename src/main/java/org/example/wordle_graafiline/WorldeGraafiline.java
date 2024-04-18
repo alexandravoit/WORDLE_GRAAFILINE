@@ -13,10 +13,15 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import javafx.scene.paint.Color;
 
+import java.util.Arrays;
+
 public class WorldeGraafiline extends Application {
+
+    static Rectangle[][] ruudud;
 
     public static void main(String[] args) {
         launch(args);
+
     }
 
     @Override
@@ -33,6 +38,7 @@ public class WorldeGraafiline extends Application {
         pealkiri.setStyle("-fx-font-weight: bold; -fx-font-size: 40px; -fx-text-fill: #3d5b37;");
         vBox.getChildren().add(pealkiri);
 
+        ruudud = new Rectangle[8][6];
 
         // RUUDUSTIKU LOOMINE
         for (int i = 0; i < 8; i++) {
@@ -47,9 +53,10 @@ public class WorldeGraafiline extends Application {
                 Rectangle ruut = new Rectangle(ruuduKülg , ruuduKülg);
                 ruut.setFill(Color.LIGHTGREY);
 
+                ruudud[i][j] = ruut;
+
                 hBox.getChildren().add(ruut);
             }
-
 
             vBox.getChildren().add(hBox);
         }
