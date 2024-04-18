@@ -3,3 +3,28 @@ inokas;süüdimatu
 kulkin;napakas
 väkats;miski, mis ei meeldi
 jogane;joodik
+alfons;naise kulul elav armuke
+antenn;pikk inimene
+tolgus;rumal inimene
+volask;suure kasvuga olend
+kõrend;pikk kõhn, vibalik inimene
+ambaal;suur turske mees
+lääbus;lätlane
+doomik;näotu maja
+uberik;viletsas seisus maja
+vigvam;putka,tare,osmik,koobas
+väänik;võimleja
+sakkis;purjus, veidi võtnud
+jommis;rumalalt purjus
+tahmas;uimane joobeseisund
+vinene;meeldiv joobeaste, lõbus olla, veidi virvendab
+rügama;intensiivselt, väsitavalt töötama
+käimad;jalanõud
+ketsid;tossud
+viisud;poiste koolisussid
+peldik;WC
+kusela;WC
+pellar;WC
+koitma;aru saama
+konema;suitsetama
+vammus;pikem kuub
