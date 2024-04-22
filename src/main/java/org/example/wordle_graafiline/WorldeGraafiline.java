@@ -5,6 +5,7 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
@@ -61,12 +62,20 @@ public class WorldeGraafiline extends Application {
             vBox.getChildren().add(hBox);
         }
 
-        TextField guess = new TextField();
+
+        HBox hBox = new HBox(); // HBOX VASTUSE LAHTRI JA NUPU JAOKS
+        hBox.setSpacing(10);
+        hBox.setAlignment(Pos.CENTER);
+
+        TextField guess = new TextField(); // LAHTER VASTUSE JAOKS
+        Button guessButton = new Button("VASTA"); // NUPP VASTUSE SUBMITTIMISEKS
+
+        // LAHTRI JA NUPU FORMATTING
         guess.setMaxSize(100,20);
         guess.setPadding(new Insets(10));
-        VBox.setMargin(guess, new Insets(20, 0, 0, 0));
-
-        vBox.getChildren().add(guess);
+        hBox.getChildren().addAll(guess,guessButton);
+        vBox.getChildren().add(hBox);
+        VBox.setMargin(hBox, new Insets(20, 0, 0, 0));
 
 
         Scene stseen = new Scene(vBox, 800,800);
