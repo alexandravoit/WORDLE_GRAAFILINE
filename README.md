@@ -8,5 +8,5 @@ Mängija saab oma valikuid pakkuda kuniks ta arvamiskorrad otsa saavad või kuni
 Mängu võitmisel väljastatakse ka põneva slängisõna tähendus ning uue lisana salvestatakse iga mängu kohta informatsioon tekstifaili vördel.txt. See on siis nii öelda meie “logifail”.
 
 
-Hämmastav promo-video, mis enkapsuleerib rakenduse sügavalt eepilist kasutaja kogemust: https://drive.google.com/file/d/1f6VBoPT6WO0GU1f4QTImJX35djM-9egB/view?usp=sharing
+*Hämmastav promo-video, mis enkapsuleerib rakenduse sügavalt eepilist kasutaja kogemust: https://drive.google.com/file/d/1f6VBoPT6WO0GU1f4QTImJX35djM-9egB/view?usp=sharing*
 
