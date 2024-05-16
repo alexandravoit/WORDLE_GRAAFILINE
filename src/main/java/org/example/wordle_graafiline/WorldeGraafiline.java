@@ -26,10 +26,7 @@ public class WorldeGraafiline extends Application {
     String[] sõnaJaTähendus = sõnaValija.valiSõna(); // String[] sõnast ja selle tähendusest
     String otsitavSõna = sõnaJaTähendus[0];
     String otsitavaSõnaTähendus = sõnaJaTähendus[1];
-    Button exitButton = new Button("Lahku mängust.");
-
-    char[] võimalikudTähed = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Õ', 'Ä', 'Ö', 'Ü'};
-    char[] mitteVõimalikudTähed; //TODO äkki pärast?
+    Button exitButton = new Button("Lahku mängust");
 
     boolean võit = false;
 
